@@ -4,24 +4,24 @@ var annotated =
       [ "flurry", null, [
         [ "android", null, [
           [ "ads", null, [
-            [ "FlurryAdBanner", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_banner.html", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_banner" ],
-            [ "FlurryAdBannerListener", "interfacecom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_banner_listener.html", "interfacecom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_banner_listener" ],
-            [ "FlurryAdErrorType", "enumcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_error_type.html", null ],
-            [ "FlurryAdInterstitial", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_interstitial.html", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_interstitial" ],
-            [ "FlurryAdInterstitialListener", "interfacecom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_interstitial_listener.html", "interfacecom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_interstitial_listener" ],
-            [ "FlurryAdNative", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native.html", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native" ],
-            [ "FlurryAdNativeAsset", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native_asset.html", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native_asset" ],
-            [ "FlurryAdNativeAssetType", "enumcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native_asset_type.html", null ],
-            [ "FlurryAdNativeListener", "interfacecom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native_listener.html", "interfacecom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native_listener" ],
-            [ "FlurryAdNativeStyle", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_native_style.html", null ],
-            [ "FlurryAdTargeting", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_targeting.html", "classcom_1_1flurry_1_1android_1_1ads_1_1_flurry_ad_targeting" ],
-            [ "FlurryGender", "enumcom_1_1flurry_1_1android_1_1ads_1_1_flurry_gender.html", null ]
+            [ "FlurryAdNativeAsset", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeAsset.html", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeAsset" ],
+            [ "FlurryAdNativeListener", "interfacecom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeListener.html", "interfacecom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeListener" ],
+            [ "FlurryAdNativeAssetType", "enumcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeAssetType.html", null ],
+            [ "FlurryGender", "enumcom_1_1flurry_1_1android_1_1ads_1_1FlurryGender.html", null ],
+            [ "FlurryAdInterstitial", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdInterstitial.html", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdInterstitial" ],
+            [ "FlurryAdInterstitialListener", "interfacecom_1_1flurry_1_1android_1_1ads_1_1FlurryAdInterstitialListener.html", "interfacecom_1_1flurry_1_1android_1_1ads_1_1FlurryAdInterstitialListener" ],
+            [ "FlurryAdBanner", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdBanner.html", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdBanner" ],
+            [ "FlurryAdErrorType", "enumcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdErrorType.html", null ],
+            [ "FlurryAdNativeStyle", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeStyle.html", null ],
+            [ "FlurryAdNative", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNative.html", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNative" ],
+            [ "FlurryAdBannerListener", "interfacecom_1_1flurry_1_1android_1_1ads_1_1FlurryAdBannerListener.html", "interfacecom_1_1flurry_1_1android_1_1ads_1_1FlurryAdBannerListener" ],
+            [ "FlurryAdTargeting", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdTargeting.html", "classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdTargeting" ]
           ] ],
-          [ "Constants", "interfacecom_1_1flurry_1_1android_1_1_constants.html", null ],
-          [ "FlurryAdSize", "enumcom_1_1flurry_1_1android_1_1_flurry_ad_size.html", null ],
-          [ "FlurryAds", "classcom_1_1flurry_1_1android_1_1_flurry_ads.html", null ],
-          [ "FlurryAgent", "classcom_1_1flurry_1_1android_1_1_flurry_agent.html", null ],
-          [ "FlurryAgentListener", "interfacecom_1_1flurry_1_1android_1_1_flurry_agent_listener.html", "interfacecom_1_1flurry_1_1android_1_1_flurry_agent_listener" ]
+          [ "Constants", "interfacecom_1_1flurry_1_1android_1_1Constants.html", null ],
+          [ "FlurryAdSize", "enumcom_1_1flurry_1_1android_1_1FlurryAdSize.html", null ],
+          [ "FlurryAds", "classcom_1_1flurry_1_1android_1_1FlurryAds.html", null ],
+          [ "FlurryAgent", "classcom_1_1flurry_1_1android_1_1FlurryAgent.html", null ],
+          [ "FlurryAgentListener", "interfacecom_1_1flurry_1_1android_1_1FlurryAgentListener.html", "interfacecom_1_1flurry_1_1android_1_1FlurryAgentListener" ]
         ] ]
       ] ]
     ] ]
