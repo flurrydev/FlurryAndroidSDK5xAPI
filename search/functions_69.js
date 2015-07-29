@@ -6,5 +6,6 @@ var searchData=
   ['isadready',['isAdReady',['../classcom_1_1flurry_1_1android_1_1FlurryAds.html#adfb0fb9c6da7fd82696c3cc0224698fa',1,'com::flurry::android::FlurryAds']]],
   ['isexpired',['isExpired',['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNative.html#aad30e3232420891db71d159607c4e110',1,'com::flurry::android::ads::FlurryAdNative']]],
   ['isready',['isReady',['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdInterstitial.html#a5e6f7cff27c150ef1efd731770b15623',1,'com.flurry.android.ads.FlurryAdInterstitial.isReady()'],['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdBanner.html#a5e6f7cff27c150ef1efd731770b15623',1,'com.flurry.android.ads.FlurryAdBanner.isReady()'],['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNative.html#a5e6f7cff27c150ef1efd731770b15623',1,'com.flurry.android.ads.FlurryAdNative.isReady()']]],
-  ['issessionactive',['isSessionActive',['../classcom_1_1flurry_1_1android_1_1FlurryAgent.html#a6fc06ced24cf55ec9aa0a0c16a9d18fa',1,'com::flurry::android::FlurryAgent']]]
+  ['issessionactive',['isSessionActive',['../classcom_1_1flurry_1_1android_1_1FlurryAgent.html#a6fc06ced24cf55ec9aa0a0c16a9d18fa',1,'com::flurry::android::FlurryAgent']]],
+  ['isvideoad',['isVideoAd',['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNative.html#ae3014c4897fbb07b7326239ed5d5d552',1,'com::flurry::android::ads::FlurryAdNative']]]
 ];
