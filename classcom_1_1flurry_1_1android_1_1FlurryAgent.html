@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>Flurry Android 5.6.0: FlurryAgent Class Reference</title>
+<title>Flurry Android 6.0.0: FlurryAgent Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Flurry Android 5.6.0
+   <div id="projectname">Flurry Android 6.0.0
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -132,6 +132,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a961bb1efff2f5f3b7a41ad16b34650da"><td class="memItemLeft" align="right" valign="top">static FlurryEventRecordStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1flurry_1_1android_1_1FlurryAgent.html#a961bb1efff2f5f3b7a41ad16b34650da">logEvent</a> (String eventId, Map&lt; String, String &gt; parameters)</td></tr>
 <tr class="memdesc:a961bb1efff2f5f3b7a41ad16b34650da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log an event with parameters.  <a href="#a961bb1efff2f5f3b7a41ad16b34650da">More...</a><br/></td></tr>
 <tr class="separator:a961bb1efff2f5f3b7a41ad16b34650da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa65e5f8dbca278dfa09d4624507358bb"><td class="memItemLeft" align="right" valign="top">static FlurryEventRecordStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1flurry_1_1android_1_1FlurryAgent.html#aa65e5f8dbca278dfa09d4624507358bb">logEvent</a> (final <a class="el" href="enumcom_1_1flurry_1_1android_1_1FlurrySyndicationEventName.html">FlurrySyndicationEventName</a> eventName, final String syndicationId, final Map&lt; String, String &gt; parameters)</td></tr>
+<tr class="memdesc:aa65e5f8dbca278dfa09d4624507358bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a syndicated event with parameters.  <a href="#aa65e5f8dbca278dfa09d4624507358bb">More...</a><br/></td></tr>
+<tr class="separator:aa65e5f8dbca278dfa09d4624507358bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec799c9f4ec2f890174154b678a6b8fe"><td class="memItemLeft" align="right" valign="top">static FlurryEventRecordStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1flurry_1_1android_1_1FlurryAgent.html#aec799c9f4ec2f890174154b678a6b8fe">logEvent</a> (String eventId, boolean timed)</td></tr>
 <tr class="memdesc:aec799c9f4ec2f890174154b678a6b8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a timed event.  <a href="#aec799c9f4ec2f890174154b678a6b8fe">More...</a><br/></td></tr>
 <tr class="separator:aec799c9f4ec2f890174154b678a6b8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -653,6 +656,58 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
  For a timed version: <a class="el" href="classcom_1_1flurry_1_1android_1_1FlurryAgent.html#a64d21ad7a1d873beb4ffd43bf78ca75b" title="Log a timed event with parameters. Log a timed event with parameters with the Flurry service...">logEvent(String, Map&lt; String, String &gt;, boolean)</a> </dd></dl>
 
 <p>References <a class="el" href="classcom_1_1flurry_1_1android_1_1FlurryAgent.html#a933df112b901c095cb8f776d0eda3f60">FlurryAgent.logEvent()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa65e5f8dbca278dfa09d4624507358bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static FlurryEventRecordStatus logEvent </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="enumcom_1_1flurry_1_1android_1_1FlurrySyndicationEventName.html">FlurrySyndicationEventName</a>&#160;</td>
+          <td class="paramname"><em>eventName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>syndicationId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Log a syndicated event with parameters. </p>
+<dl class="section note"><dt>Note</dt><dd>Only up to 10 parameters can be passed in with the Map. If more than 10 parameters are passed, all parameters will be dropped and the event will be logged as if it had no parameters. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventName</td><td>The name of the event. Choose one from the enum. </td></tr>
+    <tr><td class="paramname">syndicationId</td><td>The syndicationId of the event. </td></tr>
+    <tr><td class="paramname">parameters</td><td>A Map&lt;String, String&gt; of the parameters which should be submitted with this event. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>enum FlurryEventRecordStatus { FlurryEventFailed, FlurryEventRecorded, FlurryEventUniqueCountExceeded, FlurryEventParamsCountExceeded, FlurryEventLogCountExceeded, FlurryEventLoggingDelayed } </dd></dl>
 
 </div>
 </div>

@@ -9,6 +9,7 @@ var searchData=
   ['getreleaseversion',['getReleaseVersion',['../classcom_1_1flurry_1_1android_1_1FlurryAgent.html#aa3ffb3d01d64f0ac4c428d8d325905e4',1,'com::flurry::android::FlurryAgent']]],
   ['getsessionid',['getSessionId',['../classcom_1_1flurry_1_1android_1_1FlurryAgent.html#a504ffbd7191c8f159690769e29763cae',1,'com::flurry::android::FlurryAgent']]],
   ['getstyle',['getStyle',['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNative.html#ab620af7635945a9f09b276050dda7492',1,'com::flurry::android::ads::FlurryAdNative']]],
+  ['gettumblrimage',['getTumblrImage',['../classcom_1_1flurry_1_1android_1_1tumblr_1_1TumblrShare.html#afc157b6856e1986fc3ac3d910153e7e8',1,'com::flurry::android::tumblr::TumblrShare']]],
   ['gettype',['getType',['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeAsset.html#a7e660a2efdded00d76b07f0e20ba5c46',1,'com::flurry::android::ads::FlurryAdNativeAsset']]],
   ['getvalue',['getValue',['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdNativeAsset.html#a574b29843fb09dff2bf8edd82341f051',1,'com::flurry::android::ads::FlurryAdNativeAsset']]]
 ];

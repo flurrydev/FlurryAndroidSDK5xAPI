@@ -1,9 +1,10 @@
 var NAVTREE =
 [
-  [ "Flurry Android 5.6.0", "index.html", [
+  [ "Flurry Android 6.0.0", "index.html", [
     [ "Deprecated List", "deprecated.html", null ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],

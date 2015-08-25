@@ -15,5 +15,6 @@ var searchData=
   ['flurryadtargeting',['FlurryAdTargeting',['../classcom_1_1flurry_1_1android_1_1ads_1_1FlurryAdTargeting.html',1,'com::flurry::android::ads']]],
   ['flurryagent',['FlurryAgent',['../classcom_1_1flurry_1_1android_1_1FlurryAgent.html',1,'com::flurry::android']]],
   ['flurryagentlistener',['FlurryAgentListener',['../interfacecom_1_1flurry_1_1android_1_1FlurryAgentListener.html',1,'com::flurry::android']]],
-  ['flurrygender',['FlurryGender',['../enumcom_1_1flurry_1_1android_1_1ads_1_1FlurryGender.html',1,'com::flurry::android::ads']]]
+  ['flurrygender',['FlurryGender',['../enumcom_1_1flurry_1_1android_1_1ads_1_1FlurryGender.html',1,'com::flurry::android::ads']]],
+  ['flurrysyndicationeventname',['FlurrySyndicationEventName',['../enumcom_1_1flurry_1_1android_1_1FlurrySyndicationEventName.html',1,'com::flurry::android']]]
 ];
